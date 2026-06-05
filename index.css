@@ -1,3 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@layer components {
+  .social-button {
+    @apply flex items-center justify-center w-12 h-12 rounded-full transition-transform hover:scale-110 hover:contrast-125;
+  }
+}
